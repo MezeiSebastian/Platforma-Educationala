@@ -1,6 +1,6 @@
 import "./App.css";
 import React from "react";
-import { BrowserRouter, Route, Routes, Switch, Link } from "react-router-dom";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
 
 import Home from "./components/Home/Home";
 import About from "./components/About/About";
@@ -19,7 +19,7 @@ function App() {
           <Route path="/Despre">
             <About />
           </Route>
-          <Route path="/Clasa">
+          <Route path="/Clasa/:id">
             <Clasa />
           </Route>
           <Route path="/Lectii">

@@ -1,8 +1,8 @@
 .wrapper {
   position: absolute;
   top: 150px;
-  margin-left: 20%;
-  background-color: aqua;
+  margin-left: 25%;
+  background-color: #7ddef9ba;
   margin-top: -50px;
 }
 .menuList {
@@ -23,4 +23,5 @@
   font-size: 30px;
   padding: 0;
   margin: 0;
+  font-style: unset;
 }
